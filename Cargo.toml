@@ -6,7 +6,7 @@ edition = "2018"
 
 [workplace]
 [[bin]]
-name = "rustplaying"
+name = "really_bad_fractals"
 path = "src/main.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -15,3 +15,6 @@ path = "src/main.rs"
 rocket = "0.4.2"
 png = "0.15.0"
 rand = "0.7.2"
+#futures = "0.1.29"
+threadpool = "1.7.1"
+log = "0.4.8"
